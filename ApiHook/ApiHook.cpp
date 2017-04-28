@@ -73,8 +73,6 @@ bool ApiHook::InstallApiHook(const char* dllName, const char* apiName, void* fun
 	HMODULE dllHandle;
 	PMEMORY_BASIC_INFORMATION memoryProp = {0};
 	int funcAddr = (int)func;
-	
-	char* aaaaa = "aaaaaaa";
 
 	if (isInjected == false)
 	{
@@ -128,7 +126,7 @@ bool ApiHook::InstallApiHook(const char* dllName, const char* apiName, void* fun
 	return isInjected;
 }
 
-void ApiHook::UninstallApiHook(int temp)
+void ApiHook::UninstallApiHook()
 {
 	if (funcEntry != NULL)
 	{

@@ -9,7 +9,7 @@ private:
 public:
 	ApiHook();
 	bool InstallApiHook(const char* dllName, const char* apiName, void* func);
-	void UninstallApiHook(int temp);
+	void UninstallApiHook();
 	void BeginHook();
 	void StopHook();
     bool isInjected;
