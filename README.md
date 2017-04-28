@@ -4,7 +4,7 @@
 
 	InstallApiHook("some_dll.dll", "some_method", func)
 	UninstallApiHook()
-  	/<br>
+  	\<br>
 	BeginHook();
 	StopHook();
   
