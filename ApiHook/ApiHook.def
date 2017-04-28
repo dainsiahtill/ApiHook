@@ -1,0 +1,4 @@
+LIBRARY "ApiHook"
+
+EXPORTS
+InstallApiHook
