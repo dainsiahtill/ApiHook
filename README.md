@@ -22,7 +22,7 @@ void UninstallHook()
 {
 	if (recvHook != NULL)
 	{
-		recvHook->UninstallApiHook(0);
+		recvHook->UninstallApiHook();
 	}
 }
 
