@@ -1,15 +1,15 @@
 # ApiHook
 
-#usage:
+# usage:
 
-  InstallApiHook("some_dll.dll", "some_method", func)
+	InstallApiHook("some_dll.dll", "some_method", func)
 	UninstallApiHook()
-  
-  BeginHook();
+  	<br/>
+	BeginHook();
 	StopHook();
   
   
-#example:
+# example:
   
 void InstallHook()
 {
