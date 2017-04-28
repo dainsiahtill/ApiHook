@@ -4,13 +4,14 @@
 
 	InstallApiHook("some_dll.dll", "some_method", func)
 	UninstallApiHook()
-  	\<br>
+  	
 	BeginHook();
 	StopHook();
   
   
 # example:
-  
+
+'''cpp
 void InstallHook()
 {
 	recvHook = new ApiHook();
@@ -37,4 +38,4 @@ int WINAPI MyRecv(SOCKET socket, char* buf, int len, int flags)
 
 	return result;
 }
-
+'''
